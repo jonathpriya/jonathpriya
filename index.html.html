@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif; /* Changed to Times New Roman */
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7; /* Soft light gray background */
+            color: #333;
+            font-size: 20px; /* Increased font size */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #ffffff; /* White background for the resume */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4a4e69; /* Mild dark gray for the name */
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #9a8c98; /* Soft lavender for section titles */
+            border-bottom: 1px solid #c9ada7; /* Light pink underline */
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .personal-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #c9ada7; /* Light pink border */
+        }
+        img {
+            width: 200px; /* Increased image size */
+            height: 230px; /* Increased image size */
+            object-fit: cover;
+            border: 2px solid #4a4e69; /* Dark gray border */
+            margin-left: 50px; /* Added margin to center image */
+        }
+        .details {
+            flex: 1;
+            padding-right: 10px; /* Space between image and text */
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f2f2f2; /* Very light gray for sections */
+        }
+        .skills ul, .languages ul, .hard-skills ul, .family-details ul {
+            list-style-type: none; /* Removed bullet points */
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+            padding-left: 10px; /* Indentation for list items */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table th, table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        table th {
+            background-color: #9a8c98; /* Soft lavender header color */
+            color: white;
+        }
+        /* Page break for two pages */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Personal Information -->
+        <div class="personal-info">
+            <div class="details">
+                <h1>DHARSHINI PRIYA L</h1>
+                <p>Email: <a href="mailto:jonathpriya25@gmail.com">jonathpriya25@gmail.com</a></p>
+                <p>Phone: 7305576215</p>
+                <p>Address: 3/106, Madha Koil street, Therkunam, Kiliyanur Post, Vanur Taluk, Villupuram District, Pin Code- 604102</p>
+                <p>Currently Pursuing: B.Tech in AI and Data Science (3rd Year)</p>
+                <p>CGPA: 9.1</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/dharshini-priya-743430288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/your-profile</a></p>
+            </div>
+            <img src="WhatsApp Image 2024-08-22 at 11.23.58 PM.jpeg" alt="Personal Image">
+        </div>
+
+        <!-- Objective -->
+        <div class="section">
+            <h2>Objective</h2>
+            <p>Motivated and dedicated college student pursuing a Bachelor of Technology in AI and Data Science at MIET Engineering College, with a strong foundation in programming languages and data science. Eager to leverage academic knowledge and hands-on experience through internships and projects to contribute to innovative technology solutions. Committed to continuous learning and professional growth while making meaningful contributions to a dynamic team.</p>
+        </div>
+
+        <!-- Educational Details -->
+        <div class="section">
+            <h2>Educational Details</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Qualification</th>
+                        <th>Marks Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>St. Joseph Of Cluny, Tindivanam</td>
+                        <td>10th Grade</td>
+                        <td>96%</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>St. Joseph Of Cluny, Tindivanam</td>
+                        <td>12th Grade</td>
+                        <td>75%</td>
+                        <td>2019</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Family Details -->
+        <div class="section family-details">
+            <h2>Family Details</h2>
+            <ul>
+                <li>Father: J. LEONARD FELIX - Agriculture</li>
+                <li>Mother: L. JOSEPHINE MARI - House Wife</li>
+                <li>Grandma: A. PARIPOORANAM</li>
+                <li>Elder Brother: L. MARK ANTONY - MSc. Biochemistry</li>
+                <li>Younger Brother: F. JONATHAN - 4th GRADE</li>
+                <li>Uncle: A. FRANCIS - Safety Officer</li>
+                <li>Aunt: F. JOSEPHINE - Assistant Manager at ADP</li>
+            </ul>
+        </div>
+
+        <!-- Page Break -->
+        <div class="page-break"></div>
+
+        <!-- Work History -->
+        <div class="section">
+            <h2>Work History</h2>
+            <p><strong>Owner & Handmade Artisan</strong> - Priya Silk Thread Jewels (2017 - Present)</p>
+            <ul>
+                <li>Designed and created handmade silk thread jewelry, showcasing creativity and craftsmanship.</li>
+                <li>Managed all aspects of the business, including marketing, sales, and customer service.</li>
+                <li>Utilized social media platforms to promote products and connect with customers.</li>
+                <li>Implemented effective strategies to increase brand awareness and drive online sales.</li>
+            </ul>
+        </div>
+
+        <!-- Internship -->
+        <div class="section">
+            <h2>Internship</h2>
+            <p><strong>Web Design Intern</strong> - DLK Career Development (1 month)</p>
+            <ul>
+                <li>Collaborated with the development team to design and implement responsive web pages for client projects.</li>
+                <li>Assisted in improving website aesthetics and user experience by applying modern web design principles.</li>
+                <li>Worked with HTML, CSS, and JavaScript to create interactive web elements.</li>
+                <li>Tested website functionality across different browsers and devices to ensure optimal performance.</li>
+                <li>Participated in feedback sessions with clients to gather design requirements and adjust designs accordingly.</li>
+            </ul>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="section skills">
+            <h2>Professional Skills</h2>
+            <ul>
+                <li>Effective Communication</li>
+                <li>Problem-Solving</li>
+                <li>Team Collaboration</li>
+                <li>Critical Thinking</li>
+                <li>Public Speaking</li>
+            </ul>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Basics of JAVA and C, HTML, CSS</li>
+                <li>Data Science Tools: Jupyter Notebook, Pandas, Numpy</li>
+                <li>Database Management: MySQL</li>
+                <li>Digital Marketing</li>
+                <li>Visualization Tools: Matplotlib, Seaborn</li>
+            </ul>
+        </div>
+
+        <!-- Hard Skills -->
+        <div class="section hard-skills">
+            <h2>Hard Skills</h2>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Machine Learning</li>
+                <li>Web Development</li>
+                <li>MS-Word</li>
+                <li>MS-Excel</li>
+            </ul>
+        </div>
+
+        <!-- Interests -->
+        <div class="section">
+            <h2>Interests</h2>
+            <ul>
+                <li>Art and Craft</li>
+                <li>Reading Books</li>
+                <li>Coding Projects</li>
+                <li>Drawing</li>
+                <li>Dance</li>
+            </ul>
+        </div>
+
+        <!-- Languages Known -->
+        <div class="section languages">
+            <h2>Languages Known</h2>
+            <ul>
+                <li>Fluent English</li>
+                <li>Native Tamil</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
